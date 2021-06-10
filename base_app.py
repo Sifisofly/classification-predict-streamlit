@@ -114,7 +114,7 @@ def main():
 		# get array of climate change deniers
 		anti = raw[raw.sentiment == -1]["message"].values
 
-		bird_mask = imageio.imread('bird.jpg')
+		bird_mask = imageio.imread('./resources/imgs/twitter_logo.jpg')
 
 		plt.figure(figsize=(16, 13))
 		wc = WordCloud(
